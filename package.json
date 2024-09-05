@@ -1,5 +1,5 @@
 {
-  "name": "luckyball",
+  "name": "wheelofFortune",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:luckyball": "node dist/luckyball/server/server.mjs"
+    "serve:ssr:wheelofFortune": "node dist/wheelofFortune/server/server.mjs"
   },
   "private": true,
   "dependencies": {
@@ -24,8 +24,10 @@
     "@angular/router": "^17.0.0",
     "@angular/ssr": "^17.0.8",
     "express": "^4.18.2",
+    "luckyball": "file:",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "wheelofFortune": "file:",
     "zone.js": "~0.14.2"
   },
   "devDependencies": {
